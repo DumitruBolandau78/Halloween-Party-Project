@@ -1,0 +1,332 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    font-family: 'Irish Grover', cursive;
+}
+
+.box {
+    width: 100%;
+    max-width: 1366px;
+    overflow: hidden;
+    height: 100%;
+}
+
+header {
+    height: 100%;
+    background: radial-gradient(51.1% 51.1% at 50.49% 48.9%, #E3B335 0%, #190249 100%);
+    color: white;
+    position: relative;
+}
+
+.header-top-bar {
+    display: flex;
+    padding: 30px 80px 0 80px;
+}
+
+.header-top-bar-inner {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    padding:0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-top-bar-logo {
+    display: flex;
+    white-space: nowrap;
+}
+
+.header-top-bar-logo span {
+    position: relative;
+    top: 15px;
+    right: 10px;
+}
+
+.header-top-bar-nav-links {
+    display: flex;
+    align-items: flex-start;
+}
+
+.header-top-bar-btn {
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.header-top-bar-btn a {
+    text-decoration: none;
+}
+
+.header-top-bar-btn button {
+    background-color: #F6762D;
+    border-radius: 30px;
+    padding: 5px 20px;
+    border: 1px solid #F6762D;
+    font-family: 'Irish Grover', cursive;
+    white-space: nowrap;
+    color: white;
+}
+
+.header-top-bar-btn button:active {
+    background-color: #a7501e;
+}
+
+.header-bottom-bar {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.data-logo {
+    width: 128px;
+    position: relative;
+    right: 90px;
+    top: 60px;
+}
+
+.data-logo img {
+    width: 100%;
+}
+
+.header-bottom-right-part-image-scarecrow {
+    width: 100%;
+
+}
+
+.header-bottom-right-part-image-scarecrow img {
+    width: 100%;
+}
+
+.header-bottom-bar-right-part {
+    width: 50%;
+    display: flex;
+}
+
+.header-bottom-bar-left-part-about-party a {
+    text-decoration: none;
+    color: white;
+    background-color: #F6762D;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.header-bottom-bar-left-part {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-bottom-bar-left-part-title {
+    font-size: clamp(25px, 5vw, 40px);
+    margin-bottom: 15px;
+}
+
+.header-bottom-bar-left-part-inner {
+    width: 70%;
+    position: relative;
+}
+
+.header-bottom-bar-left-part-information {
+    margin-bottom: 30px;
+}
+
+.header-image-pumpkin {
+    position: absolute;
+    right: -80px;
+    top: 130px;
+    display: flex;
+    justify-content: end;
+}
+
+.header-image-pumpkin-inner {
+    width: 182px;
+}
+
+.header-image-pumpkin-inner img {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    max-width: 1366px;
+    background-color: #f5ebee;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
+
+.main-background {
+    background-image: url('../images/for-main/trickw.jpg');
+    max-width: 1366px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+.main-suits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-suits-inner {
+    padding-top: 100px;
+    max-width: 1100px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.main-suits-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 10px;
+}
+
+.main-suits-item img {
+    width: 100%;
+}
+
+.item-title {
+    font-size: 24px;
+    color: #190249;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+.item-description {
+    font-size: 20px;
+    color: #E3B335;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.image-spider {
+    width: 130px;
+    position: relative;
+    top: 30px;
+    right: 20px;
+    transform: rotate(-45deg);
+    padding-bottom: 80px;
+}
+
+.image-spider img{
+    width: 100%;
+}
+
+.about-the-party-wrapper {
+    background: radial-gradient(51.1% 51.1% at 50.49% 48.9%, #E3B335 0%, #190249 100%);
+    padding-bottom: 40px;
+}
+
+.about-the-party-top-side {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-the-party-top-side-inner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    width: 20%;
+    font-size: 25px;
+    position: relative;
+    bottom: 40px;
+    right: 160px;
+}
+
+.days {
+    margin: 10px;
+    background-color: #190249;
+    padding: 10px;
+}
+
+.hour {
+    margin: 10px;
+    background-color: #190249;
+    padding: 10px;
+}
+
+.minutes {
+    margin: 10px;
+    background-color: #190249;
+    padding: 10px;
+}
+
+.about-the-party-bottom-side-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.about-the-party-bottom-side-wrapper-inner {
+    display: grid;
+    max-width: 1200px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.about-the-party-bottom-side-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.about-the-party-bottom-side-subtitle {
+    color: white;
+    font-size: clamp(18px, 2.5vw, 22px);
+    margin-bottom: 10px;
+}
+
+.about-the-party-bottom-side-title {
+    color: white;
+    font-size: clamp(20px, 4vw, 35px);
+    margin-bottom: 20px;
+}
+
+.about-the-party-bottom-side-title span {
+    color: #F6762D;
+}
+
+.about-the-party-bottom-side-information {
+    width: 90%;
+    font-size: clamp(18px, 2.5vw, 22px);
+    letter-spacing: 1px;
+    padding-bottom: 80px;
+}
+
+.about-the-party-bottom-side-read-more a {
+    text-decoration: none;
+    color: #f5ebee;
+    background-color: #F6762D;
+    padding: 10px 30px;
+    font-size: clamp(20px, 3vw, 30px);
+    border-radius: 30px;
+    white-space: nowrap;
+}

@@ -1,0 +1,197 @@
+@media (max-width: 1057px) {
+    .about-the-party-bottom-side-content {
+        position: relative;
+        bottom: 50px;
+    }
+}
+
+@media (max-width: 867px) {
+
+    .header-top-bar {
+        display: flex;
+        padding: 30px 80px 0 80px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    li:last-child {
+        padding: 0;
+    }
+
+    .header-bottom-bar-left-part-inner {
+        transform: translateY(-40px);
+    }
+
+    .about-the-party-bottom-side-content {
+        position: relative;
+        bottom: 80px;
+    }
+}
+
+@media (max-width: 833px) {
+    .header-bottom-bar-left-part-inner {
+        transform: translateY(-80px);
+    }
+
+    .about-the-party-wrapper {
+        padding-bottom: 0;
+    }
+
+    .about-the-party-bottom-side-wrapper-inner img{
+        width: 100%;
+    }
+
+    .about-the-party-bottom-side-information {
+        padding-bottom: 40px;
+    }
+
+    .header-bottom-bar {
+        padding: 0;
+    }
+}
+
+@media (max-width: 681px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-top-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-top-bar-inner {
+        display: block;
+    }
+
+    .header-top-bar-logo {
+        position: relative;
+        left: 100px;
+    }
+
+    li:first-child {
+        padding: 0;
+    }
+}
+
+@media (max-width: 615px) {
+    .header-top-bar-nav-links {
+        display: none;
+    }
+
+    .header-top-bar-logo {
+        position: relative;
+        left: 0;
+    }
+
+    .header-bottom-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-bottom-bar-left-part {
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+        justify-content: center;
+    }
+
+    .header-bottom-bar-right-part {
+        width: 70%;
+        margin-top: -60px;
+    }
+
+    .main-suits-item {
+        display: grid;
+        grid-template-columns: .7fr;
+        grid-template-rows: repeat(4, 1fr) repeat(4, auto), repeat(4, auto);
+        justify-content: center;
+    }
+
+    .image1 {
+        grid-row: 1;
+    }
+
+    .image2 {
+        grid-row: 4;
+    }
+
+    .image3 {
+        grid-row: 7;
+    }
+
+    .image4 {
+        grid-row: 10;
+    }
+
+    .item-title1 {
+        grid-row: 2;
+    }
+
+    .item-title2 {
+        grid-row: 5;
+    }
+
+    .item-title3 {
+        grid-row: 8;
+    }
+
+    .item-title4 {
+        grid-row: 11;
+    }
+
+    .item-description1 {
+        grid-row: 3;
+        padding-bottom: 40px;
+    }
+
+    .item-description2 {
+        grid-row: 6;
+        padding-bottom: 40px;
+    }
+
+    .item-description3 {
+        grid-row: 9;
+        padding-bottom: 40px;
+    }
+
+    .item-description4 {
+        grid-row: 12;
+        padding-bottom: 20px;
+    }
+
+    .main-suits-inner {
+        padding-top: 10px;
+    }
+
+    .about-the-party-bottom-side-wrapper-inner { 
+        grid-template: .5fr 1fr / 1fr;
+        justify-items: center;
+    }
+
+    .about-the-party-bottom-side-content {
+        grid-row: 1;
+        align-items: center;
+    }
+
+    .about-the-party-bottom-side-information {
+        width: 70%;
+    }
+
+    .about-the-party-top-side {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about-the-party-top-side-inner {
+        bottom: 0;
+        width: 100%;
+        right: 0;
+        justify-content: space-evenly;
+    }
+}
