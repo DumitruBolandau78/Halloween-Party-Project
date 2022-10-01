@@ -79,6 +79,51 @@
 }
 
 @media (max-width: 615px) {
+
+    .media-menu-wrapper {
+        display: flex;
+    }
+
+    label {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 999;
+
+        color: white;
+        font-size: clamp(30px, 13vw, 50px);
+    }
+
+    input {
+        display: none;
+    }
+
+    .media-menu-show {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #322647;
+        background-image: url("https://www.transparenttextures.com/patterns/robots.png");
+        width: 80%;
+        height: 100vh;
+        z-index: 99;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 1s ease;
+    }
+
+    menu a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #toggle:checked ~ .media-menu-show {
+        right: -100%;
+    }
+
     .header-top-bar-nav-links {
         display: none;
     }
@@ -193,5 +238,59 @@
         width: 100%;
         right: 0;
         justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 373px) {
+    .about-the-party-bottom-side-wrapper {
+        margin-bottom: -20px;
+    }
+}
+
+@media (max-width: 368px) {
+    .about-the-party-bottom-side-wrapper {
+        margin-bottom: -40px;
+    }
+}
+
+@media (max-width: 349px) {
+    .about-the-party-bottom-side-wrapper {
+        margin-bottom: -60px;
+    }
+}
+
+@media (max-width: 334px) {
+    .about-the-party-bottom-side-wrapper {
+        margin-bottom: -70px;
+    }
+}
+
+@media (max-width: 319px) {
+    .about-the-party-bottom-side-wrapper {
+        margin-bottom: -110px;
+    }
+}
+
+@media (max-width: 306px) {
+    .about-the-party-bottom-side-wrapper {
+        margin-bottom: -110px;
+    }
+}
+
+@media (max-width: 283px) {
+    .about-the-party-bottom-side-wrapper {
+        margin-bottom: -150px;
+    }
+}
+
+@media (max-width: 277px) {
+    .about-the-party-bottom-side-wrapper {
+        margin-bottom: -200px;
+    }
+}
+
+@media (max-width: 232px) {
+    .about-the-party-bottom-side-wrapper {
+        margin-bottom: -250px;
     }
 }

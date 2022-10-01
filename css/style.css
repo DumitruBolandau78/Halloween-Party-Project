@@ -330,3 +330,14 @@ main {
     border-radius: 30px;
     white-space: nowrap;
 }
+
+.media-menu-wrapper {
+    display: none;
+}
+
+menu {
+    display: flex;
+    flex-direction: column;
+    line-height: 60px;
+    font-size: clamp(24px, 5vw, 30px);
+}
