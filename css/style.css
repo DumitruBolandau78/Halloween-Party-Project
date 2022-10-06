@@ -19,6 +19,7 @@ body {
     max-width: 1366px;
     overflow: hidden;
     height: 100%;
+    margin: auto;
 }
 
 header {
@@ -178,13 +179,14 @@ main {
 
 .main-background {
     background-image: url('../images/for-main/trickw.jpg');
-    max-width: 1366px;
+    /* max-width: 1366px; */
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 300px;
+    margin: auto;
 }
 
 .main-suits {
